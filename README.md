@@ -89,21 +89,22 @@ This project is built with a powerful combination of tools and models:
 3.  **Find your video:** The final rendered video will be in the `output/` directory.
 
 ## 📁 Project Structure
-
+```plaintext
 Automation/
 ├── src/
-│   ├── script_generator.py   # Handles LLM interaction for script writing
-│   ├── tts_engine.py         # Manages text-to-speech conversion
-│   ├── image_generator.py    # Creates images from scene descriptions
-│   ├── video_editor.py       # Assembles final video
-│   └── utils.py              # Helper functions
-├── output/                   # Generated videos and assets
+│   ├── script_generator.py
+│   ├── tts_engine.py
+│   ├── image_generator.py
+│   ├── video_editor.py
+│   └── utils.py
+├── output/
 ├── assets/
-│   ├── music/               # Background music files
-│   └── voices/              # Reference voice samples for TTS
-├── config.yaml              # Main configuration file
-├── requirements.txt         # Python dependencies
-└── README.md               # This file
+│   ├── music/
+│   └── voices/
+├── config.yaml
+├── requirements.txt
+└── README.md
+```
 
 
 ## 🔧 Configuration
