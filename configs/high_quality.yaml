@@ -1,0 +1,22 @@
+model:
+  image_model: sdxl
+  video_model: magi1
+  tts_engine: kyutai
+
+video:
+  aspect_ratio: "9:16"
+  num_frames: 49
+  fps: 12
+  quality: high
+
+audio:
+  music_volume: 0.18
+  enable_lipsync: true
+
+caption:
+  style: dynamic
+  fontsize: 36
+  color: yellow
+  stroke_color: black
+  stroke_width: 3
+  words_per_caption: 3

@@ -1,0 +1,17 @@
+model:
+  image_model: sd15
+  video_model: effects
+  tts_engine: gtts
+
+video:
+  aspect_ratio: "9:16"
+  num_frames: 14
+  fps: 6
+  quality: fast
+
+audio:
+  music_volume: 0.15
+  enable_lipsync: false
+
+caption:
+  style: none

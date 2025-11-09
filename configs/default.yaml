@@ -1,0 +1,27 @@
+model:
+  image_model: sdxl
+  video_model: svd
+  tts_engine: kyutai
+
+video:
+  aspect_ratio: "9:16"
+  num_frames: 25
+  fps: 8
+  quality: balanced
+
+audio:
+  music_volume: 0.18
+  enable_lipsync: false
+
+caption:
+  style: dynamic
+  fontsize: 34
+  color: white
+  stroke_color: black
+  stroke_width: 2
+  words_per_caption: 4
+
+paths:
+  assets_dir: assets
+  output_dir: output
+  music_dir: assets/music
