@@ -92,18 +92,18 @@ This project is built with a powerful combination of tools and models:
 
 Automation/
 ├── src/
-│ ├── script_generator.py # Handles LLM interaction for script writing
-│ ├── tts_engine.py # Manages text-to-speech conversion
-│ ├── image_generator.py # Creates images from scene descriptions
-│ ├── video_editor.py # Assembles final video
-│ └── utils.py # Helper functions
-├── output/ # Generated videos and assets
+│   ├── script_generator.py   # Handles LLM interaction for script writing
+│   ├── tts_engine.py         # Manages text-to-speech conversion
+│   ├── image_generator.py    # Creates images from scene descriptions
+│   ├── video_editor.py       # Assembles final video
+│   └── utils.py              # Helper functions
+├── output/                   # Generated videos and assets
 ├── assets/
-│ ├── music/ # Background music files
-│ └── voices/ # Reference voice samples for TTS
-├── config.yaml # Main configuration file
-├── requirements.txt # Python dependencies
-└── README.md # This file
+│   ├── music/               # Background music files
+│   └── voices/              # Reference voice samples for TTS
+├── config.yaml              # Main configuration file
+├── requirements.txt         # Python dependencies
+└── README.md               # This file
 
 
 ## 🔧 Configuration
